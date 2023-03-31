@@ -11,12 +11,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    <h1>
-        <?php echo($hello) ?>
-    </h1>
-    <p>
-        <?php echo($name) ?>
-    </p>
+
+<body>    
+    <?php include("./components/header.php") ?>
+    <main></main>
+    <?php include("./components/footer.php") ?>
 </body>
 </html>
